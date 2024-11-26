@@ -1,0 +1,175 @@
+body{
+  background-color: rgb(200, 241, 15);
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+/* .bubbels{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+} */
+
+.bubble{ 
+    position: absolute;
+    bottom: -100px;
+    border-radius: 50%;
+    border: 1px solid rgb(243, 239, 239);
+    opacity: 0.9;
+    animation: flying 5s infinite ease-in;
+    width: 100px;
+    height: 100px;
+  }
+  .bubble:nth-child(1){
+    left: 5%;
+    animation-duration: 10s;
+
+  }
+  .bubble:nth-child(2){
+    left: 10%;
+    animation-duration: 5s;
+    
+  }
+  .bubble:nth-child(3){
+    left: 15%;
+    animation-duration: 9.5s;
+  }
+  
+  .bubble:nth-child(4){
+    left: 20%;
+    animation-duration: 5.5s;
+  }
+  
+  .bubble:nth-child(5){
+    left: 25%;
+    animation-duration: 9s;
+  }
+  .bubble:nth-child(6){
+    left: 30%;
+    animation-duration: 6s;
+  }
+  .bubble:nth-child(7){
+    left: 35%;
+    animation-duration: 8.5s;
+  }
+  .bubble:nth-child(8){
+    left: 40%;
+    animation-duration: 6.5s;
+  }
+  
+  .bubble:nth-child(9){
+    left: 45%;
+    animation-duration: 8s;
+  }
+  
+  .bubble:nth-child(10){
+    left: 50%;
+    animation-duration: 7s;
+  }
+
+  .bubble:nth-child(11){
+    left: 55%;
+    animation-duration: 7.5s;
+  }
+
+  .bubble:nth-child(12){
+    left: 60%;
+    animation-duration: 10s;
+  }
+
+  .bubble:nth-child(13){
+    left: 65%;
+    animation-duration: 5.5s;
+  }
+
+  .bubble:nth-child(14){
+    left: 70%;
+    animation-duration: 7.3s;
+  }
+
+  .bubble:nth-child(15){
+    left: 75%;
+    animation-duration: 9.7s;
+  }
+  .bubble:nth-child(16){
+    left: 75%;
+    animation-duration: 3.3s;
+  }
+  .bubble:nth-child(17){
+    left: 75%;
+    animation-duration: 9.4s;
+  }
+  .bubble:nth-child(18){
+    left: 75%;
+    animation-duration: 4.1s;
+  }
+  .bubble:nth-child(19){
+    left: 75%;
+    animation-duration: 6.2s;
+  }
+  .bubble:nth-child(20){
+    left: 75%;
+    animation-duration: 9.3s;
+  }
+
+  .bubble:nth-child(21){
+    left: 7%;
+    animation-duration: 5.1s;
+  }
+  .bubble:nth-child(22){
+    left: 17%;
+    animation-duration: 8.2s;
+  }
+  .bubble:nth-child(23){
+    left: 27%;
+    animation-duration: 7.6s;
+  }
+  .bubble:nth-child(24){
+    left: 37%;
+    animation-duration: 9.1s;
+  }
+  .bubble:nth-child(25){
+    left: 47%;
+    animation-duration: 8.3s;
+  }
+  .bubble:nth-child(26){
+    left: 57%;
+    animation-duration: 6.7s;
+  }
+  .bubble:nth-child(27){
+    left: 67%;
+    animation-duration: 7.9s;
+  }
+  .bubble:nth-child(28){
+    left: 77%;
+    animation-duration: 8.5s;
+  }
+  .bubble:nth-child(29){
+    left: 87%;
+    animation-duration: 4.9s;
+  }
+  .bubble:nth-child(30){
+    left: 97%;
+    animation-duration: 9.9s;
+  }
+  
+  @keyframes flying {
+    0%{
+      bottom: -100px;
+      transform: translateX(0);
+    }
+    50%{
+      transform: translateX(100px);
+    }
+    100%{
+      bottom: 1080px;
+      transform: translateX(-200px);
+    }
+}
+
